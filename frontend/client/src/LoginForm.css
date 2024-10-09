@@ -1,0 +1,82 @@
+/* Container to center the form vertically and horizontally */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Style for the form box */
+  .login-form {
+    background: white;
+    padding: 40px; /* Increase padding for spacing inside the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    width: 350px; /* Control the form width */
+  }
+  
+  /* Title for the form */
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input field container */
+  .input-group {
+    margin-bottom: 20px; /* Space between input fields */
+  }
+  
+  /* Label styling */
+  .input-group label {
+    display: block;
+    margin-bottom: 8px; /* Space between label and input field */
+  }
+  
+  /* Input fields styling */
+  .input-group input {
+    width: 100%;
+    padding: 12px; /* Increase input padding for better UI */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Space between button and fields */
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the sign-up option */
+  .signup-option {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  /* Styling for the sign-up link */
+  .signup-option a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for sign-up link */
+  .signup-option a:hover {
+    text-decoration: underline;
+  }
+  .error {
+    color: red; /* Red color for error messages */
+    font-size: 0.9em; /* Slightly smaller font for error messages */
+    margin-top: 5px; /* Space above error messages */
+  }
